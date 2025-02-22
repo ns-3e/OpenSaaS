@@ -9,7 +9,7 @@ OpenSaaS is an open-source platform template designed to help developers quickly
 *Home page with light theme*
 
 ## 📁 Project Structure
-
+```
 .
 ├── backend/                 # Django backend
 │   ├── api/                # REST API endpoints
@@ -28,6 +28,7 @@ OpenSaaS is an open-source platform template designed to help developers quickly
 │   ├── public/           # Static files
 │   └── Dockerfile       # Frontend container config
 └── docker/              # Docker configurations
+```
 
 ## 🎯 Features
 
@@ -138,7 +139,5 @@ OpenSaaS is an open-source platform template designed to help developers quickly
    - Frontend App: http://localhost:3000
    - Admin Dashboard: http://localhost:8000/admin
    - API Documentation: http://localhost:8000/api/docs
-
-## 🏗️ Project Structure
 
 ```
