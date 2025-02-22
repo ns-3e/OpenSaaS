@@ -2,6 +2,12 @@
 
 OpenSaaS is an open-source platform template designed to help developers quickly launch Software-as-a-Service (SaaS) applications. Built with modern technologies and best practices, it provides essential SaaS features out of the box while maintaining flexibility for customization.
 
+![Home Page - Dark](screenshots/Home-Dark.png)
+*Home page with dark theme*
+
+![Home Page - Light](screenshots/Home-Light.png)
+*Home page with light theme*
+
 ## 🎯 Current Features
 
 - **Authentication & User Management**
@@ -31,23 +37,6 @@ OpenSaaS is an open-source platform template designed to help developers quickly
   - Environment variable management
   - Database wait functionality for container orchestration
   - Static file handling
-
-## 📸 Screenshots
-### Home Page
-![Home Page - Dark](screenshots/Home-Dark.png)
-*Home page with dark theme*
-
-![Home Page - Light](screenshots/Home-Light.png)
-*Home page with light theme*
-
-```
-
-> Replace the placeholder images and descriptions with your actual screenshots. For best results:
-> - Use PNG format for better quality
-> - Keep image sizes under 1MB
-> - Use consistent dimensions (recommended: 1920x1080 or 1280x720)
-> - Include captions explaining key features
-> - Ensure no sensitive information is visible
 
 ## 🗺️ Roadmap Features
 
