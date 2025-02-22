@@ -8,61 +8,90 @@ OpenSaaS is an open-source platform template designed to help developers quickly
 ![Home Page - Light](screenshots/Home-Light.png)
 *Home page with light theme*
 
-## 🎯 Current Features
+## 📁 Project Structure
 
-- **Authentication & User Management**
-  - Email-based authentication system
-  - JWT-powered email verification
-  - Custom user model with email as primary identifier
-  - Session-based authentication with DRF support
-  - Django AllAuth integration for social auth support
+.
+├── backend/                 # Django backend
+│   ├── api/                # REST API endpoints
+│   │   ├── management/     # Custom management commands
+│   │   ├── serializers.py  # API serializers
+│   │   ├── urls.py        # API routing
+│   │   └── views.py       # API views
+│   ├── core/              # Project configuration
+│   │   ├── settings.py    # Django settings
+│   │   └── urls.py       # Main URL routing
+│   └── users/             # User management app
+│       ├── models.py      # Custom user model
+│       └── admin.py      # Admin interface
+├── frontend/              # React frontend
+│   ├── src/              # Source code
+│   ├── public/           # Static files
+│   └── Dockerfile       # Frontend container config
+└── docker/              # Docker configurations
 
-- **Backend Infrastructure**
-  - Django 4.2 + Django REST Framework
-  - PostgreSQL database with connection health checks
-  - Comprehensive CORS configuration
-  - Swagger/OpenAPI documentation
-  - Environment-based settings with python-dotenv
-  - Custom management commands for deployment
+## 🎯 Features
 
-- **Frontend Framework**
-  - React 18 with Node.js 18 LTS
-  - Tailwind CSS for styling
-  - Docker-optimized build process
-  - Development and production configurations
+### Authentication & User Management
+- Email-based authentication with JWT verification
+- Custom user model with email as primary identifier
+- Mandatory email verification flow
+- Session-based authentication with DRF support
+- Django AllAuth integration for social authentication
+- Admin interface for user management
 
-- **Development & Deployment**
-  - Docker and Docker Compose setup
-  - Multi-stage build process
-  - Environment variable management
-  - Database wait functionality for container orchestration
-  - Static file handling
+### Backend Infrastructure
+- Django 4.2 with REST Framework
+- PostgreSQL database with health checks
+- Swagger/OpenAPI documentation
+- Environment-based configuration
+- CORS configuration for frontend
+- Custom management commands
+- Comprehensive test suite with pytest
 
-## 🗺️ Roadmap Features
+### Frontend Framework
+- React 18 with Node.js 18 LTS
+- Tailwind CSS for responsive design
+- Docker-optimized build process
+- Development and production configurations
+- Public and protected route handling
 
-- **Subscription & Billing**
-  - Stripe integration for payment processing
-  - Subscription plan management
-  - Usage-based billing
-  - Invoice generation
+### Development & Deployment
+- Docker and Docker Compose setup
+- Multi-stage build process
+- Environment variable management
+- Database wait functionality
+- Static file handling
+- Development and production configurations
 
-- **Multi-tenancy**
-  - Organization/team management
-  - Role-based access control (RBAC)
-  - Resource isolation between tenants
-  - Shared vs. dedicated resource options
+## 🗺️ Roadmap
 
-- **Analytics & Monitoring**
-  - User activity tracking
-  - Usage metrics dashboard
-  - Performance monitoring
-  - Error tracking and reporting
+### Authentication Enhancements
+- OAuth2 provider capabilities
+- Social authentication providers
+- Two-factor authentication
+- Password reset flow
+- Session management
 
-- **API & Integration**
-  - WebSocket support for real-time features
-  - API rate limiting
-  - OAuth2 provider capabilities
-  - Webhook system
+### User Management
+- User profiles and avatars
+- Role-based access control (RBAC)
+- Team/organization management
+- User activity logging
+- Account deletion flow
+
+### API & Integration
+- WebSocket support for real-time features
+- API rate limiting
+- Webhook system
+- Third-party integration framework
+- API versioning
+
+### Development Tools
+- Enhanced API documentation
+- Development environment setup script
+- CI/CD pipeline templates
+- Code quality tools integration
+- Performance monitoring
 
 ## 📋 Prerequisites
 
