@@ -1,5 +1,9 @@
 # OpenSaaS - Open Source SaaS Platform Template
 
+<p align="center">
+  <img src="screenshots/OpenSaaS-Logo.png" width="400">
+</p>
+
 OpenSaaS is an open-source platform template designed to help developers quickly launch Software-as-a-Service (SaaS) applications. Built with modern technologies and best practices, it provides essential SaaS features out of the box while maintaining flexibility for customization.
 
 ![Home Page - Dark](screenshots/Home-Dark.png)
